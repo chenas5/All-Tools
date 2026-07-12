@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Outfit", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Sophisticated Dark Palette mapped to tailwind semantic colors */
+  --color-neutral-950: #050507;
+  --color-neutral-900: #08080a;
+  --color-neutral-850: #0f0f13;
+  --color-neutral-800: #16161c;
+  --color-neutral-750: #1e1e26;
+  --color-neutral-700: #252530;
+  
+  --color-indigo-950: rgba(37, 99, 235, 0.15);
+  --color-indigo-900: rgba(37, 99, 235, 0.3);
+  --color-indigo-800: #1e40af;
+  --color-indigo-700: #1d4ed8;
+  --color-indigo-600: #2563eb;
+  --color-indigo-500: #3b82f6;
+  --color-indigo-400: #60a5fa;
+  --color-indigo-300: #93c5fd;
+  --color-indigo-200: #bfdbfe;
+  --color-indigo-100: #dbeafe;
+}
+
+/* Custom glowing effects or scrollbars for premium look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050507;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e1e26;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #252530;
+}
