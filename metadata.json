@@ -1,0 +1,6 @@
+{
+  "name": "All Tools",
+  "description": "An all-in-one SaaS platform combining Gemini-powered AI tools, developer utilities, PDF processors, image utilities, temporary mail, and working URL shortening into one cohesive web suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
